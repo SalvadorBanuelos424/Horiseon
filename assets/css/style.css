@@ -81,15 +81,16 @@ footer h2 {
 
 /* CONTENT STYLES START */
 .content {
-    width: 75%;
+    width: 970px;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.media {
+    overflow: auto;
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -107,12 +108,12 @@ footer h2 {
 
 /* BENEFITS STYLES START */
 .benefits {
+    position: relative;
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
+    float: right;   
+    width: 280px;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     color: #ffffff;
